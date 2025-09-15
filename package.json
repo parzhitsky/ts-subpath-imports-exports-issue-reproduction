@@ -1,0 +1,7 @@
+{
+  "name": "ts-subpath-imports-exports-issue-reproduction",
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/**"
+  ]
+}
