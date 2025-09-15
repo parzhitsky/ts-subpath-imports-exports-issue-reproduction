@@ -1,0 +1,20 @@
+{
+  "name": "main",
+  "version": "0.0.1",
+  "type": "module",
+  "imports": {
+    "#ts": "typescript/lib/typescript.js",
+    "#common/*": "common/*",
+    "#@/*": {
+      "map-src-to-dist": "./dist/*",
+      "default": "./src/*"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json --traceResolution > output.log",
+    "start": "node --conditions=map-src-to-dist dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2"
+  }
+}

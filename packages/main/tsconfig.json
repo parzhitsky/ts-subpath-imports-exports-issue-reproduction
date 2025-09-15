@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "references": [
+    { "path": "../common/tsconfig.build.json" },
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+
+    "baseUrl": ".",
+    "paths": {
+      "#ts": [
+        "./node_modules/typescript/lib/typescript.js",
+      ],
+    },
+  },
+}

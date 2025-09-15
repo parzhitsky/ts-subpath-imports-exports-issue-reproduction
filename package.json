@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "workspaces": [
     "packages/**"
-  ]
+  ],
+  "scripts": {
+    "start": "npm run -w common -w main build && npm -w main start"
+  }
 }
