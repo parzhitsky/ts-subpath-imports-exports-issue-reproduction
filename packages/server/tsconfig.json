@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "references": [
-    { "path": "../common/tsconfig.build.json" },
+    { "path": "../shared/tsconfig.build.json" },
   ],
   "compilerOptions": {
     "rootDir": ".",

@@ -1,10 +1,10 @@
 {
-  "name": "main",
+  "name": "server",
   "version": "0.0.1",
   "type": "module",
   "imports": {
     "#ts": "typescript/lib/typescript.js",
-    "#common/*": "common/*",
+    "#shared/*": "shared/*",
     "#@/*": {
       "map-src-to-dist": "./dist/*",
       "default": "./src/*"
